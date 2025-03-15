@@ -1,0 +1,81 @@
+/* Contact Section */
+#contact {
+
+    display: flex;
+    align-items: center;  
+    /* justify-content: space-around; */ 
+    position: relative;  
+    top: 140px;
+} 
+    
+
+/* Left Side (Text + Emojis) */
+.contact-left {
+    width: 50%;
+    /* text-align: left; */
+    padding: 20px;
+}
+
+.contact-left p {
+    font-size: 25px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.emoji-list {
+    font-size: 50px;
+}
+
+.emoji-list span {
+    margin-right: 10px;
+}
+
+/* Right Side (Social Icons) */
+.contact-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    text-decoration: none;
+    font-size: 50px; /* Adjust icon size */
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.social-icons .facebook:hover {
+    color: #1877F2;
+}
+
+.social-icons .instagram:hover {
+    color: #E1306C;
+}
+
+.social-icons .threads:hover {
+    color: #000000;
+}
+
+.social-icons .gmail:hover {
+    color: #D14836;
+}
+ 
+.social-icons .linkedin:hover {
+    color: #0077B5;
+} 
+
+.social-icons .phone:hover {
+    color: #00A6ED;
+}
